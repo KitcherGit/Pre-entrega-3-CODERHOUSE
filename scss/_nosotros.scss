@@ -1,24 +1,21 @@
-/* NOSOTROS Img */
-.titulo-nosotros{
-    background: rgb(85,22,112);
-    background: linear-gradient(90deg, rgba(85,22,112,1) 0%, rgba(102,2,2,1) 50%, rgba(0,0,0,1) 100%);
-}
-
-.titulo-nosotros h3{
+/* NOSOTROS*/
+.titulo-nosotros h3 {
+    background: rgb(85, 22, 112);
+    background: linear-gradient(90deg, rgba(85, 22, 112, 1) 0%, rgba(102, 2, 2, 1) 50%, rgba(0, 0, 0, 1) 100%);
     color: black;
+    padding: 30px;
 }
 
-.container-history{
+.container-history {
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
-}
 
-.container-history img{
-    width: 100%;
-}
+    img {
+        width: 100%;
+    }
 
-.container-history .card{
-    width: 100%;
+    .card {
+        width: 100%;
+    }
 }
-

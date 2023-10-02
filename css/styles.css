@@ -1,4 +1,4 @@
-/* Estilos globales */
+/* GLOBALES */
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +13,7 @@ img {
   max-width: 100%;
 }
 
-/*  HEADER - Color NAV + Fuentes */
+/*  HEADER */
 header {
   background-color: black;
 }
@@ -21,12 +21,11 @@ header {
 .nav-link {
   color: white;
 }
-
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+.nav-link:focus, .nav-link:hover {
   color: gray;
 }
 
-.nav-link:focus, .nav-link:hover {
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
   color: gray;
 }
 
@@ -35,7 +34,6 @@ header {
   border-color: white;
   opacity: 0.3;
 }
-
 .boton-buscar button:hover {
   background-color: gray;
 }
@@ -43,7 +41,6 @@ header {
 .icono-navbar button {
   border-color: rgb(68, 68, 68);
 }
-
 .icono-navbar button:hover {
   border-color: gray;
   background-color: gray;
@@ -53,20 +50,14 @@ header {
 .d-flex {
   padding-top: 25px;
 }
-
 .d-flex input {
   height: 100%;
 }
-
 .d-flex button {
   height: 60%;
 }
 
-/* INDEX CARDS - Estilos + MQ */
-.main-title {
-  padding: 30px;
-}
-
+/* CARDS */
 .container-cards {
   display: flex;
   flex-direction: column;
@@ -111,7 +102,7 @@ header {
     grid-template-columns: repeat(4, 1fr);
   }
 }
-/* INDEX Estilo GIF */
+/* GIF */
 .video-box {
   width: 100%;
   max-width: 1200px;
@@ -125,7 +116,7 @@ header {
   height: auto;
 }
 
-/* Estilos Footer */
+/* FOOTER */
 .container-footer {
   max-width: 1170px;
   margin: auto;
@@ -149,7 +140,6 @@ ul {
   width: 25%;
   padding: 0 15px;
 }
-
 .footer-col h4 {
   font-size: 18px;
   color: #ffffff;
@@ -158,7 +148,6 @@ ul {
   font-weight: 500;
   position: relative;
 }
-
 .footer-col h4::before {
   content: "";
   position: absolute;
@@ -169,18 +158,15 @@ ul {
   box-sizing: border-box;
   width: 50px;
 }
-
 .footer-col ul li:not(:last-child) {
   margin-bottom: 10px;
 }
-
 .footer-col ul li a {
   font-size: 16px;
   text-decoration: none;
   font-weight: 300;
   color: #bbbbbb;
 }
-
 .footer-col .social-links a {
   display: inline-block;
   height: 40px;
@@ -193,7 +179,6 @@ ul {
   color: #ffffff;
   transition: all 0.5s ease;
 }
-
 .footer-col .social-links a:hover {
   color: #24262b;
   background-color: #ffffff;
@@ -210,64 +195,62 @@ ul {
     width: 100%;
   }
 }
-/* INDEX SLIDE - Estilo al carousel */
+/* INDEX*/
 .c-item {
   font-size: 22px;
 }
-
 .c-item h5 {
   font-size: 40px;
 }
 
-/* ZAPATILLAS Logos */
-.logos-zapatillas {
+/* STORE*/
+.titulo-store h3 {
+  border-bottom: black 3px solid;
+  margin: 24px;
   padding-bottom: 20px;
 }
 
-.logos-zapatillas img {
+.logos-marcas {
+  padding-bottom: 20px;
+}
+.logos-marcas img {
   height: 30px;
   padding-left: 20px;
 }
 
+/* LANZAMIENTOS*/
 .titulo-lanzamientos h3 {
   background: rgb(121, 83, 0);
   background: linear-gradient(90deg, rgb(121, 83, 0) 0%, rgb(255, 252, 0) 35%, rgb(0, 0, 0) 100%);
-}
-
-.titulo-lanzamientos h3 {
   color: black;
+  padding: 30px;
 }
 
 .container-lanzamientos {
   padding: 50px;
 }
-
 .container-lanzamientos img {
   width: 100%;
   height: 100%;
   cursor: default;
 }
-
-.container-lanzamientos .card {
-  width: 100%;
-  cursor: default;
-}
-
 .container-lanzamientos h5 {
   text-align: center;
   font-size: 30px;
   background-color: yellow;
   cursor: default;
 }
-
-/* NOSOTROS Img */
-.titulo-nosotros {
-  background: rgb(85, 22, 112);
-  background: linear-gradient(90deg, rgb(85, 22, 112) 0%, rgb(102, 2, 2) 50%, rgb(0, 0, 0) 100%);
+.container-lanzamientos .card {
+  width: 100%;
+  cursor: default;
 }
 
+/* NOSOTROS*/
 .titulo-nosotros h3 {
+  background: rgb(85, 22, 112);
+  background: linear-gradient(90deg, rgb(85, 22, 112) 0%, rgb(102, 2, 2) 50%, rgb(0, 0, 0) 100%);
   color: black;
+  padding: 30px;
 }
 
 .container-history {
@@ -275,39 +258,52 @@ ul {
   padding-left: 50px;
   padding-right: 50px;
 }
-
 .container-history img {
   width: 100%;
 }
-
 .container-history .card {
   width: 100%;
 }
 
-/* CONTACTO Estilo */
-.titulo-contacto {
+/* CONTACTO*/
+.titulo-contacto h3 {
   background: rgb(87, 13, 49);
   background: linear-gradient(90deg, rgb(87, 13, 49) 6%, rgb(167, 42, 104) 39%, rgb(0, 0, 0) 100%);
-}
-
-.titulo-contacto h3 {
   color: black;
+  padding: 30px;
 }
 
 .container-form {
   margin-top: 1px;
 }
-
-.container-form input, select, button {
+.container-form input,
+.container-form select,
+.container-form button {
   font-size: 18px;
 }
-
 .container-form img {
   width: 100%;
 }
-
-:focus {
-  outline: none;
+.container-form select {
+  cursor: pointer;
+}
+.container-form select option[value=""][disabled] {
+  display: none;
+}
+.container-form button {
+  border: none;
+  width: 164px;
+  height: 51px;
+  margin: auto;
+  margin-top: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0;
+  background-color: #a72a68;
+  font-size: 15px;
+  color: #fff;
 }
 
 .wrapper {
@@ -326,33 +322,28 @@ ul {
   margin: auto;
   display: flex;
 }
-
-.inner .img-registro {
-  width: 50%;
-}
-
 .inner form {
   width: 50%;
   padding-top: 36px;
   padding-left: 45px;
   padding-right: 45px;
 }
-
-.inner h3 {
+.inner form h3 {
   text-transform: uppercase;
   font-size: 25px;
   text-align: center;
   margin-bottom: 28px;
 }
+.inner .img-registro {
+  width: 50%;
+}
 
 .form-group {
   display: flex;
 }
-
 .form-group input {
   width: 50%;
 }
-
 .form-group input:first-child {
   margin-right: 25px;
 }
@@ -370,30 +361,6 @@ ul {
   height: 30px;
   padding-right: 0;
   margin-bottom: 25px;
-}
-
-.container-form select {
-  cursor: pointer;
-}
-
-.container-form select option[value=""][disabled] {
-  display: none;
-}
-
-.container-form button {
-  border: none;
-  width: 164px;
-  height: 51px;
-  margin: auto;
-  margin-top: 40px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-left: 0;
-  background-color: #a72a68;
-  font-size: 15px;
-  color: #fff;
 }
 
 @media (max-width: 767px) {
