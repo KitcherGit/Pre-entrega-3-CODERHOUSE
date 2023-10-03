@@ -2,8 +2,8 @@
 .titulo-nosotros h3 {
     background: rgb(85, 22, 112);
     background: linear-gradient(90deg, rgba(85, 22, 112, 1) 0%, rgba(102, 2, 2, 1) 50%, rgba(0, 0, 0, 1) 100%);
-    color: black;
-    padding: 30px;
+    color: $color-primario;
+    padding: $padding-grande;
 }
 
 .container-history {
@@ -19,3 +19,23 @@
         width: 100%;
     }
 }
+
+.card-nosotros{
+    .card-title{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    h5{
+        padding: 15px;
+        border-bottom: $color-primario 3px solid;
+        font-family: $fuente-principal;
+    }
+
+    p{
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: $fuente-secundario;
+    }
+}
+

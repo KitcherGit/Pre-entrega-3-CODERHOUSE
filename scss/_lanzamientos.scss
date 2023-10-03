@@ -2,8 +2,8 @@
 .titulo-lanzamientos h3 {
     background: rgb(121, 83, 0);
     background: linear-gradient(90deg, rgba(121, 83, 0, 1) 0%, rgba(255, 252, 0, 1) 35%, rgba(0, 0, 0, 1) 100%);
-    color: black;
-    padding: 30px;
+    color: $color-primario;
+    padding: $padding-grande;
 }
 
 .container-lanzamientos {
@@ -18,8 +18,13 @@
     h5 {
         text-align: center;
         font-size: 30px;
-        background-color: yellow;
+        font-family: $fuente-principal;
+        background-color: $color-amarillo-detalles;
         cursor: default;
+    }
+
+    p{
+        font-family: $fuente-secundario;
     }
 
     .card {
