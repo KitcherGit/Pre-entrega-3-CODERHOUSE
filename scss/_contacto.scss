@@ -1,9 +1,10 @@
 /* CONTACTO*/
-.titulo-contacto h3 {
+.titulo-contacto h1 {
     background: rgb(87, 13, 49);
     background: linear-gradient(90deg, rgba(87, 13, 49, 1) 6%, rgba(167, 42, 104, 1) 39%, rgba(0, 0, 0, 1) 100%);
     color: $color-primario;
     padding: 30px;
+    font-size: $fuente-titulo;
 }
 
 .container-form {

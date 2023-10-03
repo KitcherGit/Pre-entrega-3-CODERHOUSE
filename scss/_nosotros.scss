@@ -1,9 +1,10 @@
 /* NOSOTROS*/
-.titulo-nosotros h3 {
+.titulo-nosotros h1 {
     background: rgb(85, 22, 112);
     background: linear-gradient(90deg, rgba(85, 22, 112, 1) 0%, rgba(102, 2, 2, 1) 50%, rgba(0, 0, 0, 1) 100%);
     color: $color-primario;
     padding: $padding-grande;
+    font-size: $fuente-titulo;
 }
 
 .container-history {
